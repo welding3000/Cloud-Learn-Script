@@ -1,0 +1,1561 @@
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>  length     </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+<p id="demo"></p>
+
+<script>
+var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+document.getElementById("demo").innerHTML = txt.length;
+</script>
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;h3> 
+
+&lt;/h3>
+
+&lt;p id="demo">&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+document.getElementById("demo").innerHTML = txt.length;
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>   indexOf    </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+<p id="p1">Please locate where 'locate' occurs!.</p>
+
+<button onclick="myFunction1()">Try it</button>
+
+<p id="demo1"></p>
+
+<script>
+function myFunction1() {
+    var str1 = document.getElementById("p1").innerHTML;
+    var pos1 = str1.indexOf("locate");
+    document.getElementById("demo1").innerHTML = pos1;
+}
+</script>
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;h3> 
+Please locate where 'locate' occurs!
+&lt;/h3>
+&lt;p id="p1">
+
+&lt;/p>
+
+&lt;button onclick="myFunction()">Try it &lt;/button>
+&lt;p id="demo">&lt;/p>
+
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+function myFunction() {
+    var str = document.getElementById("p1").innerHTML;
+    var pos = str.indexOf("locate");
+    document.getElementById("demo").innerHTML = pos;
+}
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>   lastIndexOf    </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+<p id="p12">Please locate where 'locate' occurs!.</p>
+
+<button onclick="myFunction2()">Try it</button>
+
+<p id="demo2"></p>
+
+<script>
+function myFunction2() {
+    var str2 = document.getElementById("p12").innerHTML;
+    var pos2 = str2.lastIndexOf("locate");
+    document.getElementById("demo2").innerHTML = pos2;
+}
+</script>
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+
+&lt;h3> 
+Please locate where 'locate' occurs!
+&lt;/h3>
+&lt;p id="p1">
+
+&lt;/p>
+
+&lt;button onclick="myFunction()">Try it &lt;/button>
+&lt;p id="demo">&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+function myFunction() {
+    var str = document.getElementById("p1").innerHTML;
+    var pos = str.lastIndexOf("locate");
+    document.getElementById("demo").innerHTML = pos;
+}
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>   search    </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+<p id="p13">Please locate where 'locate' occurs!.</p>
+
+<button onclick="myFunction3()">Try it</button>
+
+<p id="demo3"></p>
+
+<script>
+function myFunction3() {
+    var str3 = document.getElementById("p13").innerHTML;
+    var pos3 = str3.search("locate");
+    document.getElementById("demo3").innerHTML = pos3;
+}
+</script>
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;h3> 
+
+&lt;/h3>
+&lt;p id="p1">
+Please locate where 'locate' occurs!
+&lt;/p>
+
+&lt;button onclick="myFunction()">Try it &lt;/button>
+&lt;p id="demo">&lt;/p>
+
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+function myFunction() {
+    var str = document.getElementById("p1").innerHTML;
+    var pos = str.search("locate");
+    document.getElementById("demo").innerHTML = pos;
+}
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>   slice    </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+<p>The slice() method extract a part of a string
+and returns the extracted parts in a new string:</p>
+
+<p id="demo4"></p>
+
+<script>
+var str4 = "Apple, Banana, Kiwi";
+document.getElementById("demo4").innerHTML = str4.slice(7,13);
+</script>
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+
+&lt;p>
+The slice() method extract a part of a string
+and returns the extracted parts in a new string:
+&lt;/p>
+
+&lt;p id="demo">&lt;/p>
+
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var str = "Apple, Banana, Kiwi";
+document.getElementById("demo").innerHTML = str.slice(7,13);
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>   slice (-number)    </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+<p>The slice() method extract a part of a string
+and returns the extracted parts in a new string:</p>
+
+<p id="demo5"></p>
+
+<script>
+var str5 = "Apple, Banana, Kiwi";
+document.getElementById("demo5").innerHTML = str5.slice(-12,-6);
+</script>
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;p>
+The slice() method extract a part of a string
+and returns the extracted parts in a new string:
+&lt;/p>
+
+&lt;p id="demo">&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var str = "Apple, Banana, Kiwi";
+document.getElementById("demo").innerHTML = str.slice(-12,-6);
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>   The slice() method extract    </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+<p>The slice() method extract a part of a string
+and returns the extracted parts in a new string:</p>
+
+<p id="demo6"></p>
+
+<script>
+var str6 = "Apple, Banana, Kiwi";
+document.getElementById("demo6").innerHTML = str6.slice(7);
+</script>
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;p>
+The slice() method extract a part of a string
+and returns the extracted parts in a new string: 
+&lt;/p>
+
+&lt;p id="demo">&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var str = "Apple, Banana, Kiwi";
+document.getElementById("demo").innerHTML = str.slice(7);
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>   The slice( - number )  extract   </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+<p>The slice() method extract a part of a string
+and returns the extracted parts in a new string:</p>
+
+<p id="demo7"></p>
+
+<script>
+var str7 = "Apple, Banana, Kiwi";
+document.getElementById("demo7").innerHTML = str7.slice(-12);
+</script>
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;p>
+The slice() method extract a part of a string
+and returns the extracted parts in a new string
+&lt;/p>
+
+&lt;p id="demo">&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var str = "Apple, Banana, Kiwi";
+document.getElementById("demo").innerHTML = str.slice(-12);
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>   substring    </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+<p>The substr() method extract a part of a string
+and returns the extracted parts in a new string:</p>
+
+<p id="demo8"></p>
+
+<script>
+var str8 = "Apple, Banana, Kiwi";
+document.getElementById("demo8").innerHTML = str8.substring(7,13);
+</script>
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;p>
+The substr() method extract a part of a string
+and returns the extracted parts in a new string
+&lt;/p>
+
+&lt;p id="demo">&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var str = "Apple, Banana, Kiwi";
+document.getElementById("demo").innerHTML = str.substring(7,13);
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>  substr     </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+
+<p>The substr() method extract a part of a string
+and returns the extracted parts in a new string:</p>
+
+<p id="demo9"></p>
+
+<script>
+var str9 = "Apple, Banana, Kiwi";
+document.getElementById("demo9").innerHTML = str9.substr(7,6);
+</script>
+
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;p>
+The substr() method extract a part of a string
+and returns the extracted parts in a new string
+&lt;/p>
+
+&lt;p id="demo">&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var str = "Apple, Banana, Kiwi";
+document.getElementById("demo").innerHTML = str.substr(7,6);
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1> The  replace    </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+
+<p>Replace "Microsoft" with "W3Schools" in the paragraph below:</p>
+
+<button onclick="myFunction10()">Try it</button>
+
+<p id="demo10">Please visit Microsoft!</p>
+
+<script>
+function myFunction10() {
+    var str10 = document.getElementById("demo10").innerHTML; 
+    var txt10 = str10.replace("Microsoft","W3Schools");
+    document.getElementById("demo10").innerHTML = txt10;
+}
+</script>
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+
+&lt;p>
+Replace "Microsoft" with "W3Schools" in the paragraph below
+&lt;/p>
+
+&lt;button onclick="myFunction()">Try it &lt;/button>
+&lt;p id="demo">&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+function myFunction() {
+    var str = document.getElementById("demo").innerHTML; 
+    var txt = str.replace("Microsoft","W3Schools");
+    document.getElementById("demo").innerHTML = txt;
+}
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>   replace    </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+
+<p>Replace all occurrences of "Microsoft" with "W3Schools" in the paragraph below:</p>
+
+<button onclick="myFunction11()">Try it</button>
+
+<p id="demo11">Please visit Microsoft and Microsoft!</p>
+
+<script>
+function myFunction11() {
+    var str11 = document.getElementById("demo11").innerHTML; 
+    var txt11 = str11.replace(/Microsoft/g,"W3Schools");
+    document.getElementById("demo11").innerHTML = txt11;
+}
+</script>
+
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;p>
+Replace all occurrences of "Microsoft" with "W3Schools" in the paragraph below
+&lt;/p>
+
+&lt;button onclick="myFunction()">Try it &lt;/button>
+&lt;p id="demo">&lt;/p>
+
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+function myFunction() {
+    var str = document.getElementById("demo").innerHTML; 
+    var txt = str.replace(/Microsoft/g,"W3Schools");
+    document.getElementById("demo").innerHTML = txt;
+}
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>    toUpperCase   </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+
+<p>Convert string to upper case:</p>
+
+<button onclick="myFunction12()">Try it</button>
+
+<p id="demo12">Hello World!</p>
+
+<script>
+function myFunction12() {
+    var text12 = document.getElementById("demo12").innerHTML;
+    document.getElementById("demo12").innerHTML = text12.toUpperCase();
+}
+</script>
+
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;p>
+Convert string to upper case:
+&lt;/p>
+
+&lt;button onclick="myFunction()">Try it &lt;/button>
+&lt;p id="demo">&lt;/p>
+
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+function myFunction() {
+    var text = document.getElementById("demo").innerHTML;
+    document.getElementById("demo").innerHTML = text.toUpperCase();
+}
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>   toLowerCase    </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+<p>Convert string to lower case:</p>
+<button onclick="myFunction13()">Try it</button>
+<p id="demo13">Hello World!</p>
+
+<script>
+function myFunction13() {
+    var text13 = document.getElementById("demo13").innerHTML;
+    document.getElementById("demo13").innerHTML = text13.toLowerCase();
+}
+</script>
+
+
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;p>
+Convert string to lower case
+&lt;/p>
+
+&lt;button onclick="myFunction()">Try it &lt;/button>
+&lt;p id="demo">&lt;/p>
+
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+function myFunction() {
+    var text = document.getElementById("demo").innerHTML;
+    document.getElementById("demo").innerHTML = text.toLowerCase();
+}
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>    concat   </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+<p>The concat() method joins two or more strings:</p>
+
+<p id="dem13"></p>
+
+<script>
+var text113 = "Hello";
+var text213 = "World!";
+document.getElementById("dem13").innerHTML = text113.concat(" ",text213);
+</script>
+
+
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;p>
+The concat() method joins two or more strings
+&lt;/p>
+
+&lt;p id="demo">&lt;/p>
+
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var text1 = "Hello";
+var text2 = "World!";
+document.getElementById("demo").innerHTML = text1.concat(" ",text2);
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>  charAt     </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+<p>The charAt() method returns the character at a given position in a string:</p>
+
+<p id="demo14"></p>
+
+<script>
+var str14 = "HELLO WORLD";
+document.getElementById("demo14").innerHTML = str14.charAt(0);
+</script>
+
+
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;p>
+The charAt() method returns the character at a given position in a string:
+&lt;/p>
+
+&lt;p id="demo">&lt;/p>
+
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var str = "HELLO WORLD";
+document.getElementById("demo").innerHTML = str.charAt(0);
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>  charCodeAt     </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+
+<p>The charCodeAt() method returns the unicode of the character at a given position in a string:</p>
+
+<p id="demo15"></p>
+
+<script>
+var str15 = "HELLO WORLD";
+document.getElementById("demo15").innerHTML = str15.charCodeAt(0);
+</script>
+
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;p>
+The charCodeAt() method returns the unicode of the character at a given position in a string
+&lt;/p>
+
+&lt;p id="demo">&lt;/p>
+
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var str = "HELLO WORLD";
+document.getElementById("demo").innerHTML = str.charCodeAt(0);
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>       </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+
+<p>Click "Try it" to display the first array element, after a string split.</p>
+<button onclick="myFunction16()">Try it</button>
+
+<p id="demo16"></p>
+
+<script>
+function myFunction16() {
+    var str16 = "a,b,c,d,e,f";
+    var arr16 = str16.split(",");
+    document.getElementById("demo16").innerHTML = arr16[0];
+}
+</script>
+
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;p>
+Click "Try it" to display the first array element, after a string split
+&lt;/p>
+&lt;button onclick="myFunction()">Try it&lt;/button>
+&lt;p id="demo">&lt;/p>
+
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+function myFunction() {
+    var str = "a,b,c,d,e,f";
+    var arr = str.split(",");
+    document.getElementById("demo").innerHTML = arr[0];
+}
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>       </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+
+<p id="demo17"></p>
+
+<script>
+var str17 = "Hello";
+var arr17 = str17.split("");
+var text17 = "";
+var i17;
+for (i17 = 0; i17 < arr17.length; i17++) {
+    text17 += arr17[i17] + "<br>"
+}
+document.getElementById("demo17").innerHTML = text17;
+</script>
+
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;p>
+
+&lt;/p>
+
+&lt;p id="demo">&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var str = "Hello";
+var arr = str.split("");
+var text = "";
+var i;
+for (i = 0; i < arr.length; i++) {
+    text += arr[i] + "&lt;br>"
+}
+document.getElementById("demo").innerHTML = text;
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+
+
+<style>
+    
+    
+    body {
+  background: rgba(161, 192, 87, 0.9999);
+}
+/* head welcome - blue */
+#cont {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  margin: 4px;
+  padding: 2px;
+  background: linear-gradient(to top right, #3f51b5 0%, #039be5 40%);
+  box-shadow: 1px 1px 30px #0277bd;
+}
+/* head welcome container */
+#head {
+  position: relative;
+  top: -15px;
+  text-transform: capitalize;
+  max-width: 600px;
+  margin: auto;
+  color: white;
+  width: 450px;
+  background-color: rgba(31, 31, 31, 0.6);
+  border-left: 1px solid #e2695f;
+  border-radius: 3px;
+}
+/* Background colours */
+div + div article:nth-child(1) {
+  background: #434451;
+  border: 6px solid #333 ;
+  transition: all .8s ease 0s;
+}
+div + div article:nth-child(2) {
+  background: #696969;
+  border: 6px solid #333 ;
+  transition: all 0.8s ease 0s;
+}
+/* Main layout */
+div + div {
+  width: 1200px;
+  height: 500px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  overflow: hidden;
+}
+/* Articles */
+div + div article {
+  flex: initial;
+  width: 5%;
+  height: 100%;
+  text-align: left;
+  color: white;
+  box-sizing: border-box;
+  padding: 2vh 1vw;
+  position: relative;
+  vertical-align: bottom;
+  opacity: 1;
+}
+/* hover article */
+div > article:hover {
+  overflow: auto;
+}
+/* Hover interaction small */
+div + div:hover article {
+  flex: initial;
+  width: 6%;
+  cursor: grad;
+}
+/* article interaction expand text */
+div + div article:hover {
+  width: 60%;
+}
+/* hidden text */
+article > div {
+  opacity: 0;
+  transition: opacity .6s ease 0;
+}
+/* show text */
+div + div article:hover > div {
+  opacity: 1;
+  transition: opacity .3s ease .3s;
+}
+/* word vertical  */
+div + div article > h2 {
+  bottom: 5vh;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  margin: -4px;
+  font-size: 3vh;
+  transform: rotate(-90deg);
+  transform-origin: 0 0 0;
+  opacity: 1;
+  min-width: 12em;
+}
+/* rotate word vertical  */
+article:hover > h2 {
+  top: 2vh;
+  transition: opacity .3s ease .3s;
+}
+@media (max-width: 900px) {
+  div + div article {
+    padding: 2vh 3vw;
+  }
+  div + div article > h2:hover {
+    transform: rotate(-10deg);
+  }
+  article div {
+    max-height: calc(92%);
+    overflow-y: auto;
+  }
+}
+#very {
+  background: #696969;
+  border-radius: 5px;
+  overflow: auto;
+  padding: 25px;
+}
+#gray {
+  background: rgba(67, 68, 81, 0.99);
+  overflow: auto;
+  border-radius: 5px;
+  padding: 20px;
+}
+#rot {
+  background-color: rgba(31, 31, 31, 0.6);
+  border-left: 1px solid #e2695f;
+  border-radius: 3px;
+  border: 13px solid #300;
+}
+
+</style>
+
