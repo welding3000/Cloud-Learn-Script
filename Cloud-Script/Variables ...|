@@ -1,0 +1,1000 @@
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>  variables  </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        
+
+<h1>JavaScript Variables</h1>
+<p>In this example, x, y, and z are variables</p>
+<p id="demo"></p>
+
+<script>
+var x = 5;
+var y = 6;
+var z = x + y;
+document.getElementById("demo").innerHTML = z;
+</script>
+
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+
+&lt;h1>JavaScript Variables&lt;/h1>
+&lt;p>In this example, x, y, and z are variables&lt;/p>
+&lt;p id="demo">&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var x = 5;
+var y = 6;
+var z = x + y;
+document.getElementById("demo").innerHTML = z;
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>  variables number  </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        
+<h1>JavaScript Variables</h1>
+
+<p id="demo1"></p>
+
+<script>
+var price11 = 5;
+var price21 = 6;
+var total1 = price11 + price21;
+document.getElementById("demo1")
+    .innerHTML ="The total is: " + total1;
+</script>
+
+
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;h1>JavaScript Variables&lt;/h1>
+&lt;p id="demo">&lt;/p>
+
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var price1 = 5;
+var price2 = 6;
+var total = price1 + price2;
+document.getElementById("demo")
+    .innerHTML ="The total is: " + total;
+
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1> sting removing the // comments </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        
+<h1>JavaScript Variables</h1>
+<p>Strings are written with quotes.</p>
+<p>Numbers are written without quotes.</p>
+<p>Try to experiment by removing the // comments.</p>
+
+<p id="demo2"></p>
+
+<script>
+var pi2 = 3.14;
+var person2 = "John Doe";
+var answer2 = 'Yes I am!';
+
+document.getElementById("demo2").innerHTML = pi2;
+//document.getElementById("demo").innerHTML = person;
+//document.getElementById("demo").innerHTML = answer;
+</script>
+
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;h1>JavaScript Variables&lt;/h1>
+&lt;p>Strings are written with quotes.&lt;/p>
+&lt;p>Numbers are written without quotes.&lt;/p>
+&lt;p>Try to experiment by removing the // comments.&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var pi = 3.14;
+var person = "John Doe";
+var answer = 'Yes I am!';
+
+document.getElementById("demo").innerHTML = pi;
+//document.getElementById("demo").innerHTML = person;
+//document.getElementById("demo").innerHTML = answer;
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>  variable "string "  </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        
+<h1>JavaScript Variables</h1>
+<p>Create a variable, assign a value to it, and display it:</p>
+<p id="demo3"></p>
+
+<script>
+var carName3 = "Volvo";
+document.getElementById("demo3").innerHTML = carName3;
+</script>
+
+
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;h1>JavaScript Variables&lt;/h1>
+&lt;p>Create a variable, assign a value to it, and display it:&lt;/p>
+&lt;p id="demo">&lt;/p>
+
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var carName = "Volvo";
+document.getElementById("demo").innerHTML = carName;
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>  variables in one statement  </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        
+<h1>JavaScript Variables</h1>
+<p>You can declare many variables in one statement.</p>
+<p id="demo4"></p>
+
+<script>
+var person4 = "John Doe", carName4 = "Volvo", price4 = 200;
+document.getElementById("demo4").innerHTML = carName4;
+</script>
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;h1>JavaScript Variables&lt;/h1>
+&lt;p>You can declare many variables in one statement &lt;/p>
+&lt;p id="demo">&lt;/p>
+
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var person = "John Doe", carName = "Volvo", price = 200;
+document.getElementById("demo").innerHTML = carName;
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>  declare many variables   </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        
+<h1>JavaScript Variables</h1>
+<p>You can declare many variables in one statement.</p>
+<p id="demo5"></p>
+
+<script>
+var person5 = "John Doe",
+carName5 = "Volvo",
+price5 = 200;
+document.getElementById("demo5").innerHTML = carName5;
+</script>
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        
+&lt;h1>JavaScript Variables&lt;/h1>
+&lt;p>You can declare many variables in one statement.&lt;/p>
+&lt;p id="demo">&lt;/p>
+
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var person = "John Doe",
+carName = "Volvo",
+price = 200;
+document.getElementById("demo").innerHTML = carName;
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1> value undefined  </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+<h1>JavaScript Variables</h1>
+<p>A variable declared without a value will have the value undefined.</p>
+<p id="demo6"></p>
+
+<script>
+var carName6;
+document.getElementById("demo6").innerHTML = carName6;
+</script>       
+
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;h1>JavaScript Variables&lt;/h1>
+&lt;p>A variable declared without a value will have the value undefined.&lt;/p>
+&lt;p id="demo">&lt;/p>
+
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var carName;
+document.getElementById("demo").innerHTML = carName;
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>  re-declare a JavaScript variable  </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+<h1>JavaScript Variables</h1>
+<p>If you re-declare a JavaScript variable, it will not lose its value.</p>
+<p id="demo7"></p>
+
+<script>
+var carName7 = "Volvo";
+var carName7;
+document.getElementById("demo7").innerHTML = carName7;
+</script>        
+
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;h1>JavaScript Variables&lt;/h1>
+&lt;p>If you re-declare a JavaScript variable, it will not lose its value &lt;/p>
+&lt;p id="demo">&lt;/p>
+
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var carName = "Volvo";
+var carName;
+document.getElementById("demo").innerHTML = carName;
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>  adding +  </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+<h1>JavaScript Variables</h1>
+<p>The result of adding 5 + 2 + 3:</p>
+<p id="demo8"></p>
+
+<script>
+var x8 = 5 + 2 + 3;
+document.getElementById("demo8").innerHTML = x8;
+</script>
+     
+
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;h1>JavaScript Variables&lt;/h1>
+&lt;p>The result of adding 5 + 2 + 3:&lt;/p>
+&lt;p id="demo">&lt;/p>
+
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var x = 5 + 2 + 3;
+document.getElementById("demo").innerHTML = x;
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>  adding + string </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+<h1>JavaScript Variables</h1>
+<p>The result of adding "John" + " " + "Doe":</p>
+<p id="demo9"></p>
+
+<script>
+var x9 = "John" + " " + "Doe";
+document.getElementById("demo9").innerHTML = x9;
+</script>
+       
+
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;h1>JavaScript Variables&lt;/h1>
+&lp;t>The result of adding "John" + " " + "Doe":&lt;/p>
+&lp;t id="demo">&lt;/p>
+
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var x = "John" + " " + "Doe";
+document.getElementById("demo").innerHTML = x;
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>  adding string + number  </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+<h1>JavaScript Variables</h1>
+<p>The result of adding "5" + 2 + 3:</p>
+<p id="demo10"></p>
+
+<script>
+x10 = "5" + 2 + 3;
+document.getElementById("demo10").innerHTML = x10;
+</script>
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;h1>JavaScript Variables &lt;/h1>
+&lt;p>The result of adding "5" + 2 + 3:&lt;/p>
+&lt;p id="demo">&lt;/p>
+
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+x = "5" + 2 + 3;
+document.getElementById("demo").innerHTML = x;
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>   adding " number " + number </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+
+<h1>JavaScript Variables</h1>
+<p>The result of adding 2 + 3 + "5":</p>
+<p id="demo11"></p>
+
+<script>
+var x11 = 2 + 3 + "5"
+document.getElementById("demo11").innerHTML = x11;
+</script>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;h1>JavaScript Variables&lt;/h1>
+&lt;p>The result of adding 2 + 3 + "5":&lt;/p>
+&lt;p id="demo">&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var x = 2 + 3 + "5"
+document.getElementById("demo").innerHTML = x;
+      
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+
+
+<style>
+    
+    
+    body {
+  background: rgba(161, 192, 87, 0.9999);
+}
+/* head welcome - blue */
+#cont {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  margin: 4px;
+  padding: 2px;
+  background: linear-gradient(to top right, #3f51b5 0%, #039be5 40%);
+  box-shadow: 1px 1px 30px #0277bd;
+}
+/* head welcome container */
+#head {
+  position: relative;
+  top: -15px;
+  text-transform: capitalize;
+  max-width: 600px;
+  margin: auto;
+  color: white;
+  width: 450px;
+  background-color: rgba(31, 31, 31, 0.6);
+  border-left: 1px solid #e2695f;
+  border-radius: 3px;
+}
+/* Background colours */
+div + div article:nth-child(1) {
+  background: #434451;
+  border: 6px solid #333 ;
+  transition: all .8s ease 0s;
+}
+div + div article:nth-child(2) {
+  background: #696969;
+  border: 6px solid #333 ;
+  transition: all 0.8s ease 0s;
+}
+/* Main layout */
+div + div {
+  width: 1200px;
+  height: 500px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  overflow: hidden;
+}
+/* Articles */
+div + div article {
+  flex: initial;
+  width: 5%;
+  height: 100%;
+  text-align: left;
+  color: white;
+  box-sizing: border-box;
+  padding: 2vh 1vw;
+  position: relative;
+  vertical-align: bottom;
+  opacity: 1;
+}
+/* hover article */
+div > article:hover {
+  overflow: auto;
+}
+/* Hover interaction small */
+div + div:hover article {
+  flex: initial;
+  width: 6%;
+  cursor: grad;
+}
+/* article interaction expand text */
+div + div article:hover {
+  width: 60%;
+}
+/* hidden text */
+article > div {
+  opacity: 0;
+  transition: opacity .6s ease 0;
+}
+/* show text */
+div + div article:hover > div {
+  opacity: 1;
+  transition: opacity .3s ease .3s;
+}
+/* word vertical  */
+div + div article > h2 {
+  bottom: 5vh;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  margin: -4px;
+  font-size: 3vh;
+  transform: rotate(-90deg);
+  transform-origin: 0 0 0;
+  opacity: 1;
+  min-width: 12em;
+}
+/* rotate word vertical  */
+article:hover > h2 {
+  top: 2vh;
+  transition: opacity .3s ease .3s;
+}
+@media (max-width: 900px) {
+  div + div article {
+    padding: 2vh 3vw;
+  }
+  div + div article > h2:hover {
+    transform: rotate(-10deg);
+  }
+  article div {
+    max-height: calc(92%);
+    overflow-y: auto;
+  }
+}
+#very {
+  background: #696969;
+  border-radius: 5px;
+  overflow: auto;
+  padding: 25px;
+}
+#gray {
+  background: rgba(67, 68, 81, 0.99);
+  overflow: auto;
+  border-radius: 5px;
+  padding: 20px;
+}
+#rot {
+  background-color: rgba(31, 31, 31, 0.6);
+  border-left: 1px solid #e2695f;
+  border-radius: 3px;
+  border: 13px solid #300;
+}
+
+</style>
+
+
