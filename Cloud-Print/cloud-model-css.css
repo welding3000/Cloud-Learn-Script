@@ -1,0 +1,467 @@
+/* ::::::::::::::::::::::::: */
+$green: #a1c057 ;  // important  
+$white: white   ;  // important
+$black: black   ;  // important
+$Hblack: #333   ;  // important
+
+$line: inline   ;  // important
+$none: none     ;  // important
+$over: auto     ;  // important
+
+$dark: 1px solid #333 ; // important 
+$aqua: 1px solid aqua ; // important
+
+$tp: 15px      ; // important
+$pd: 15px 15px ; // important
+$twen: 20px    ; // important
+/* ::::::::::::::::::::::::: */
+@mixin body(){
+  background:$green ;   // important 
+  margin:    $over  ;   // important 
+}
+
+@mixin acordionBox(){
+  background: $black;   // important 
+  color:$white;         // important 
+  border:$aqua;         // important 
+}
+
+@mixin textAcordion(){
+  overflow: $over;     // important 
+  border: $aqua;       // important 
+  background: $Hblack; // important 
+}
+@mixin caja(){
+  color:$white;      // important 
+  border:$aqua;      // important 
+  overflow:$over;    // important 
+}
+
+@mixin ul(){
+  list-style:$none;    // important   
+  background:$green;   // important 
+  padding:$twen;       // important 
+}
+/* add - whith - uL */
+@mixin hide-ul(){
+  border:$aqua ;     // important 
+}
+@mixin li(){
+  display: $line ;   // important 
+}
+@mixin a(){
+  text-decoration:$none;  // important  
+  color:$white;           // important 
+}
+@mixin hide-a(){
+    border: $dark ;        // important 
+    background:$Hblack;   // important 
+}
+@mixin effect-code(){
+  overflow:$over;       // important 
+  border:$aqua;         // important 
+  display:$none;        // important 
+}
+@mixin effect-output(){
+   
+  background:rgba(33,34,66,0.77);// important  
+  color:$white;      // important
+  overflow:$over;    // important
+  display:$none;     // important
+}
+
+@mixin effect-print(){
+  color: $white;          // important
+  overflow:$over;         // important
+  background:rgba(33,34,66,0.77);     // important        
+  display: $none;         // important
+}
+
+
+@mixin boxout(){
+  margin-top: $tp ;    // important
+  padding: $pd    ;    // important
+  overflow-x:$over;    // important
+  color:$white;        // important
+}
+@mixin box(){
+  margin-top:  $tp;   // important
+  padding: $pd ;      // important
+  overflow:$over;     // important  
+}
+@mixin tabs(){
+ color:$white;        // important
+ border:$aqua;        // important
+ overflow-x:$over;    // important
+}
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+body{
+
+  color:black;
+  text-align:justify; 
+  max-width:800px;  
+  
+/* ::::::::::::::::::::::::: */
+  @include body()
+/* ::::::::::::::::::::::::: */
+}
+/* :::::::::::::::::::::::::::::::::::::::::::::::::: */
+h2{
+  text-transform:capitalize;
+}
+/* Acordion */
+.acordion{ 
+  color:lime;
+  padding: 10px;
+  margin: 2px 0 0 0;
+  
+  border: 1px solid #333;  /* important */
+}
+/* :::::::::::::::::::::::::::::::::::::::::::::::::: */
+/* acordionBox */
+.acordionBox{  
+  padding: 3px;
+  margin: 2px 0 0 0;  
+  height:775px;  /*-- modificado ----*/
+  
+ /* ::::::::::::::::::::::::: */
+  @include acordionBox()
+/* ::::::::::::::::::::::::: */
+}
+/* :::::::::::::::::::::::::::::::::::::::::::::::::: */
+.textAcordion{
+  height: 95px; 
+  
+/* ::::::::::::::::::::::::: */
+  @include textAcordion()
+/* ::::::::::::::::::::::::: */
+}
+/* :::::::::::::::::::::::::::::::::::::::::::::::::: */
+.caja{
+  background:#1d1f20;
+  margin-top:5px;  
+  height:650px;  /* modificado*/
+  padding:8px 15px;
+  
+/* ::::::::::::::::::::::::: */
+  @include caja()
+/* ::::::::::::::::::::::::: */
+}
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+/* ::::::::::::::::::::::::: */
+/* Esto imprime navegador */
+/* ::::::::::::::::::::::::: */
+#nav_print_model_ul{
+  margin-top:3px;  
+  
+/* ::::::::::::::::::::::::: */
+  @include ul()
+/* ::::::::::::::::::::::::: */
+
+}
+/* ::::::::::::::::::::::::: */
+#nav_print_container_li{
+  
+/* ::::::::::::::::::::::::: */
+  @include li()
+/* ::::::::::::::::::::::::: */
+}
+/* ::::::::::::::::::::::::: */
+#container_model_a{
+  padding:12px 75px;
+  line-height:34px;
+  margin-left:9px;
+  border:1px solid ; 
+  border-radius:3px;
+  
+/* ::::::::::::::::::::::::: */
+  @include a()
+/* ::::::::::::::::::::::::: */
+}
+/* ::::::::::::::::::::::::: */
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+.boxout{
+    background:rgba(110,110,110,0.5);   
+  
+/* ::::::::::::::::::::::::: */
+  @include boxout()
+/* ::::::::::::::::::::::::: */
+}
+/* ::::::::::::::::::::::::: */
+.box{
+  background: rgba(255,255,255,0.2);
+  
+/* ::::::::::::::::::::::::: */
+  @include box()
+/* ::::::::::::::::::::::::: */ 
+}
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/* :::::::::::::::::::::::::::::::::::::::::::::::::: */
+/* ####  Cloud-Print-Output [  Hide   ]  */
+/* :::::::::::::::::::::::::::::::::::::::::::::::::: */
+/* ####  Cloud-Print-Output [  Hide --- Container ---ul  ]  */
+#hide_show_border_container,
+#hide_show_border_container1,
+#hide_show_border_container2,
+#hide_show_border_container3,
+#hide_show_border_container4,
+#hide_show_border_container5,
+#hide_show_border_container6,
+#hide_show_border_container7,
+#hide_show_border_container8,
+#hide_show_border_container9,
+
+
+#hide_show_border_container10,#hide_show_border_container11,#hide_show_border_container12,#hide_show_border_container13,#hide_show_border_container14,#hide_show_border_container15,#hide_show_border_container16,#hide_show_border_container17,#hide_show_border_container18,#hide_show_border_container19,
+
+#hide_show_border_container20,#hide_show_border_container21,#hide_show_border_container22,#hide_show_border_container23,#hide_show_border_container24,#hide_show_border_container25,#hide_show_border_container26,#hide_show_border_container27,#hide_show_border_container28,#hide_show_border_container29,
+
+#hide_show_border_container30,#hide_show_border_container31,#hide_show_border_container32,#hide_show_border_container33,#hide_show_border_container34,#hide_show_border_container35,#hide_show_border_container36,#hide_show_border_container37,#hide_show_border_container38,#hide_show_border_container39,
+
+#hide_show_border_container40,#hide_show_border_container41,#hide_show_border_container42,#hide_show_border_container43,#hide_show_border_container44,#hide_show_border_container45,#hide_show_border_container46,#hide_show_border_container47,#hide_show_border_container48,#hide_show_border_container49,
+
+#hide_show_border_container50,#hide_show_border_container51,#hide_show_border_container52,#hide_show_border_container53,#hide_show_border_container54,#hide_show_border_container55,#hide_show_border_container56,#hide_show_border_container57,#hide_show_border_container58,#hide_show_border_container59,
+
+#hide_show_border_container60,#hide_show_border_container61,#hide_show_border_container62,#hide_show_border_container63,#hide_show_border_container64,#hide_show_border_container65,#hide_show_border_container66,#hide_show_border_container67,#hide_show_border_container68,#hide_show_border_container69,
+
+#hide_show_border_container70,#hide_show_border_container71,#hide_show_border_container72,#hide_show_border_container73,#hide_show_border_container74,#hide_show_border_container75,#hide_show_border_container76,#hide_show_border_container77,#hide_show_border_container78,#hide_show_border_container79,
+
+#hide_show_border_container80,#hide_show_border_container81,#hide_show_border_container82,#hide_show_border_container83,#hide_show_border_container84,#hide_show_border_container85,#hide_show_border_container86,#hide_show_border_container87,#hide_show_border_container88,#hide_show_border_container89,
+
+#hide_show_border_container90,#hide_show_border_container91,#hide_show_border_container92,#hide_show_border_container93,#hide_show_border_container94,#hide_show_border_container95,#hide_show_border_container96,#hide_show_border_container97,#hide_show_border_container98,#hide_show_border_container99,
+
+#hide_show_border_container100,#hide_show_border_container101,#hide_show_border_container102,#hide_show_border_container103,#hide_show_border_container104,#hide_show_border_container105,#hide_show_border_container106,#hide_show_border_container107,#hide_show_border_container108,#hide_show_border_container109
+
+{
+
+/* ::::::::::::::::::::::::: */
+  @include ul();
+  @include hide-ul();
+/* ::::::::::::::::::::::::: */  
+}
+/* :::::::::::::::::::::::::::::::::::::::::::::::::: */
+/* ####  Cloud-Print-Output [  Hide --- Inline --- li  ]*/
+#print_hide_button_inline{   @include li()  }
+/* :::::::::::::::::::::::::::::::::::::::::::::::::: */
+/* ####  Cloud-Print-Output [  Hide --- A  ]*/
+#hide_print_button_code,  
+#hide_print_button_code1,
+#hide_print_button_code2,
+#hide_print_button_code3,
+#hide_print_button_code4,
+#hide_print_button_code5,
+#hide_print_button_code6,
+#hide_print_button_code7,
+#hide_print_button_code8,
+#hide_print_button_code9,
+
+
+#hide_print_button_code10,#hide_print_button_code11,#hide_print_button_code12,#hide_print_button_code13,#hide_print_button_code14,#hide_print_button_code15,#hide_print_button_code16,#hide_print_button_code17,#hide_print_button_code18,#hide_print_button_code19,
+
+#hide_print_button_code20,#hide_print_button_code21,#hide_print_button_code22,#hide_print_button_code23,#hide_print_button_code24,#hide_print_button_code25,#hide_print_button_code26,#hide_print_button_code27,#hide_print_button_code28,#hide_print_button_code29,
+
+#hide_print_button_code30,#hide_print_button_code31,#hide_print_button_code32,#hide_print_button_code33,#hide_print_button_code34,#hide_print_button_code35,#hide_print_button_code36,#hide_print_button_code37,#hide_print_button_code38,#hide_print_button_code39,
+
+#hide_print_button_code40,#hide_print_button_code41,#hide_print_button_code42,#hide_print_button_code43,#hide_print_button_code44,#hide_print_button_code45,#hide_print_button_code46,#hide_print_button_code47,#hide_print_button_code48,#hide_print_button_code49,
+
+#hide_print_button_code50,#hide_print_button_code51,#hide_print_button_code52,#hide_print_button_code53,#hide_print_button_code54,#hide_print_button_code55,#hide_print_button_code56,#hide_print_button_code57,#hide_print_button_code58,#hide_print_button_code59,
+
+#hide_print_button_code60,#hide_print_button_code61,#hide_print_button_code62,#hide_print_button_code63,#hide_print_button_code64,#hide_print_button_code65,#hide_print_button_code66,#hide_print_button_code67,#hide_print_button_code68,#hide_print_button_code69,
+
+#hide_print_button_code70,#hide_print_button_code71,#hide_print_button_code72,#hide_print_button_code73,#hide_print_button_code74,#hide_print_button_code75,#hide_print_button_code76,#hide_print_button_code77,#hide_print_button_code78,#hide_print_button_code79,
+
+#hide_print_button_code80,#hide_print_button_code81,#hide_print_button_code82,#hide_print_button_code83,#hide_print_button_code84,#hide_print_button_code85,#hide_print_button_code86,#hide_print_button_code87,#hide_print_button_code88,#hide_print_button_code89,
+
+#hide_print_button_code90,#hide_print_button_code91,#hide_print_button_code92,#hide_print_button_code93,#hide_print_button_code94,#hide_print_button_code95,#hide_print_button_code96,#hide_print_button_code97,#hide_print_button_code98,#hide_print_button_code99,
+
+#hide_print_button_code100,#hide_print_button_code101,#hide_print_button_code102,#hide_print_button_code103,#hide_print_button_code104,#hide_print_button_code105,#hide_print_button_code106,#hide_print_button_code107,#hide_print_button_code108,#hide_print_button_code109,
+
+#hide_print_button_code110,#hide_print_button_code111,#hide_print_button_code112,#hide_print_button_code113,#hide_print_button_code114,#hide_print_button_code115,#hide_print_button_code116,#hide_print_button_code117,#hide_print_button_code118,#hide_print_button_code119,
+
+#hide_print_button_code120,#hide_print_button_code121,#hide_print_button_code122,#hide_print_button_code123,#hide_print_button_code124,#hide_print_button_code125,#hide_print_button_code126,#hide_print_button_code127,#hide_print_button_code128,#hide_print_button_code129,
+
+#hide_print_button_code130,#hide_print_button_code131,#hide_print_button_code132,#hide_print_button_code133,#hide_print_button_code134,#hide_print_button_code135,#hide_print_button_code136,#hide_print_button_code137,#hide_print_button_code138,#hide_print_button_code139,
+
+#hide_print_button_code140,#hide_print_button_code141,#hide_print_button_code142,#hide_print_button_code143,#hide_print_button_code144,#hide_print_button_code145,#hide_print_button_code146,#hide_print_button_code147,#hide_print_button_code148,#hide_print_button_code149,
+
+
+#hide_print_button_code150,#hide_print_button_code151,#hide_print_button_code152,#hide_print_button_code153,#hide_print_button_code154,#hide_print_button_code155,#hide_print_button_code156,#hide_print_button_code157,#hide_print_button_code158,#hide_print_button_code159
+
+{  
+  
+    padding:12px 80px;
+    cursor:pointer;
+/* ::::::::::::::::::::::::: */
+    border:2px solid white ;
+    border-radius:4px;
+ // @include hide-a();
+    // background: #8b8b8b;
+    // background: linear-gradient(to bottom,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 51%,#717171 100%);
+  
+    background: rgb(58,58,58); 
+    background: linear-gradient(to bottom, rgba(58,58,58,1) 0%,rgba(125,126,125,1) 31%,rgba(99,99,99,1) 62%,rgba(12,12,12,1) 100%); 
+/* ::::::::::::::::::::::::: */
+
+}
+
+/* :::::::::::::::::::::::::::::::::::::::::::::::::: */
+/* ####  Cloud-Print-Output [  Hide --- Code --- Effect  ] */
+#hide_show_print_code,
+#hide_show_print_code1,
+#hide_show_print_code2,
+#hide_show_print_code3,
+#hide_show_print_code4,
+#hide_show_print_code5,
+#hide_show_print_code6,
+#hide_show_print_code7,
+#hide_show_print_code8,
+#hide_show_print_code9,
+
+#hide_show_print_code10,#hide_show_print_code11,#hide_show_print_code12,#hide_show_print_code13,#hide_show_print_code14,#hide_show_print_code15,#hide_show_print_code16,#hide_show_print_code17,#hide_show_print_code18,#hide_show_print_code19,
+
+#hide_show_print_code20,#hide_show_print_code21,#hide_show_print_code22,#hide_show_print_code23,#hide_show_print_code24,#hide_show_print_code25,#hide_show_print_code26,#hide_show_print_code27,#hide_show_print_code28,#hide_show_print_code29,
+
+#hide_show_print_code30,#hide_show_print_code31,#hide_show_print_code32,#hide_show_print_code33,#hide_show_print_code34,#hide_show_print_code35,#hide_show_print_code36,#hide_show_print_code37,#hide_show_print_code38,#hide_show_print_code39,
+
+#hide_show_print_code40,#hide_show_print_code41,#hide_show_print_code42,#hide_show_print_code43,#hide_show_print_code44,#hide_show_print_code45,#hide_show_print_code46,#hide_show_print_code47,#hide_show_print_code48,#hide_show_print_code49,
+
+
+#hide_show_print_code50,#hide_show_print_code51,#hide_show_print_code52,#hide_show_print_code53,#hide_show_print_code54,#hide_show_print_code55,#hide_show_print_code56,#hide_show_print_code57,#hide_show_print_code58,#hide_show_print_code59,
+
+#hide_show_print_code60,#hide_show_print_code61,#hide_show_print_code62,#hide_show_print_code63,#hide_show_print_code64,#hide_show_print_code65,#hide_show_print_code66,#hide_show_print_code67,#hide_show_print_code68,#hide_show_print_code69,
+
+#hide_show_print_code70,#hide_show_print_code71,#hide_show_print_code72,#hide_show_print_code73,#hide_show_print_code74,#hide_show_print_code75,#hide_show_print_code76,#hide_show_print_code77,#hide_show_print_code78,#hide_show_print_code79,
+
+#hide_show_print_code80,#hide_show_print_code81,#hide_show_print_code82,#hide_show_print_code83,#hide_show_print_code84,#hide_show_print_code85,#hide_show_print_code86,#hide_show_print_code87,#hide_show_print_code88,#hide_show_print_code89,
+
+#hide_show_print_code90,#hide_show_print_code91,#hide_show_print_code92,#hide_show_print_code93,#hide_show_print_code94,#hide_show_print_code95,#hide_show_print_code96,#hide_show_print_code97,#hide_show_print_code98,#hide_show_print_code99,
+
+#hide_show_print_code100,#hide_show_print_code101,#hide_show_print_code102,#hide_show_print_code103,#hide_show_print_code104,#hide_show_print_code105,#hide_show_print_code106,#hide_show_print_code107,#hide_show_print_code108,#hide_show_print_code109,
+
+#hide_show_print_code110,#hide_show_print_code111,#hide_show_print_code112,#hide_show_print_code113,#hide_show_print_code114,#hide_show_print_code115,#hide_show_print_code116,#hide_show_print_code117,#hide_show_print_code118,#hide_show_print_code119,
+
+#hide_show_print_code120,#hide_show_print_code121,#hide_show_print_code122,#hide_show_print_code123,#hide_show_print_code124,#hide_show_print_code125,#hide_show50_print_code126,#hide_show_print_code127,#hide_show_print_code128,#hide_show_print_code129,
+
+#hide_show_print_code130,#hide_show_print_code131,#hide_show_print_code132,#hide_show_print_code133,#hide_show_print_code134,#hide_show_print_code135,#hide_show_print_code136,#hide_show_print_code137,#hide_show_print_code138,#hide_show_print_code139,
+
+#hide_show_print_code140,#hide_show_print_code141,#hide_show_print_code142,#hide_show_print_code143,#hide_show_print_code144,#hide_show_print_code145,#hide_show_print_code146,#hide_show_print_code147,#hide_show_print_code148,#hide_show_print_code149,
+
+#hide_show_print_code150,#hide_show_print_code151,#hide_show_print_code152,#hide_show_print_code153,#hide_show_print_code154,#hide_show_print_code155,#hide_show_print_code156,#hide_show_print_code157,#hide_show_print_code158,#hide_show_print_code159
+{
+  background:aqua;
+  margin-top: 6px;
+  margin-left:-14px;
+  padding:3px 3px;
+  height:500px; 
+  width: 610px; 
+  overflow:auto;
+/* ::::::::::::::::::::::::: */
+  @include effect-code()
+/* ::::::::::::::::::::::::: */  
+
+}
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+
+
+
+
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+#tabs-1,#tabs-2,#tabs-3,#tabs-4,#tabs-5,#tabs-6,#tabs-7,#tabs-8,#tabs-9,
+#tabs-10,#tabs-11,#tabs-12,#tabs-13,#tabs-14,#tabs-15,#tabs-16,#tabs-17,#tabs-18,#tabs-19,
+#tabs-20,#tabs-21,#tabs-22,#tabs-23,#tabs-24,#tabs-25,#tabs-26,#tabs-27,#tabs-28,#tabs-29,
+#tabs-30,#tabs-31,#tabs-32,#tabs-33,#tabs-34,#tabs-35,#tabs-36,#tabs-37,#tabs-38,#tabs-39,
+#tabs-40,#tabs-41,#tabs-42,#tabs-43,#tabs-44,#tabs-45,#tabs-46,#tabs-47,#tabs-48,#tabs-49,
+#tabs-50,#tabs-51,#tabs-52,#tabs-53,#tabs-54,#tabs-55,#tabs-56,#tabs-57,#tabs-58,#tabs-59,
+#tabs-60,#tabs-61,#tabs-62,#tabs-63,#tabs-64,#tabs-65,#tabs-66,#tabs-67,#tabs-68,#tabs-69,
+#tabs-70,#tabs-71,#tabs-72,#tabs-73,#tabs-74,#tabs-75,#tabs-76,#tabs-77,#tabs-78,#tabs-79,
+#tabs-80,#tabs-81,#tabs-82,#tabs-83,#tabs-84,#tabs-85,#tabs-86,#tabs-87,#tabs-88,#tabs-89,
+#tabs-90,#tabs-91,#tabs-92,#tabs-93,#tabs-94,#tabs-95,#tabs-96,#tabs-97,#tabs-98,#tabs-99,
+#tabs-100,#tabs-101,#tabs-102,#tabs-103,#tabs-104,#tabs-105,#tabs-106,#tabs-107,#tabs-108,#tabs-109,
+#tabs-110,#tabs-111,#tabs-112,#tabs-113,#tabs-114,#tabs-115,#tabs-116,#tabs-117,#tabs-118,#tabs-119,
+#tabs-120
+{
+ margin-top:-15px;
+ height:655px;  
+ padding:0px 25px; 
+ background:rgba(14,14,94,0.3333); 
+  
+/* ::::::::::::::::::::::::: */
+  @include tabs()
+/* ::::::::::::::::::::::::: */
+}
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+@mixin cloud(){  
+    background: rgb(10,8,9); 
+    background: linear-gradient(to bottom, rgba(10,8,9,1) 0%,rgba(10,14,10,1) 7%,rgba(10,14,10,1) 7%,rgba(75,81,81,1) 47%,rgba(10,14,10,1) 91%,rgba(10,8,9,1) 100%); 
+}
+
+@mixin cloud-hover(){  
+    background: rgb(58,58,58); 
+    background: linear-gradient(to bottom, rgba(58,58,58,1) 0%,rgba(125,126,125,1) 31%,rgba(99,99,99,1) 62%,rgba(12,12,12,1) 100%); 
+}
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+@mixin cloud-model(){  
+    background: #8b8b8b;
+    background: linear-gradient(to bottom,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 51%,#717171 100%);
+
+}
+@mixin cloud-model-hover(){    
+    background: rgb(63,63,63);
+    background: linear-gradient(135deg, rgba(63,63,63,1) 0%,rgba(125,126,125,1) 30%,rgba(125,126,125,1) 70%,rgba(63,63,63,1) 100%);
+
+   
+}
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+
+.acordion{
+   @include cloud();
+     cursor:pointer;
+}
+.acordion:hover{
+    @include cloud-hover();
+    
+ }
+
+ #container_model_a{
+   @include cloud-model();
+      cursor:pointer;
+ }
+#container_model_a:hover{
+  @include cloud-model-hover();
+}
+
+
+
+
+
+#cont{
+  background:linear-gradient( to top right, rgba(63,81,181,1) 0%, rgba(3,155,229 ,1) 40%);
+  box-shadow: 1px 1px 30px rgba(2,119,189 ,1);
+  padding:13px;
+  margin-top:-16px;
+}
+
+#text{
+  padding:8px;
+  text-align:center;
+  text-transform:capitalize;
+  max-width:600px;
+  margin:auto;
+  color:white;
+  width:450px;
+  background-color: rgba(31,31,31,0.6);
+  border-left: 1px solid #e2695f;
+  border-radius: 3px;
+}
+
