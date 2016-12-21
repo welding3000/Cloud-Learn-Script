@@ -1,0 +1,997 @@
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>   statements double comma & simple comma  </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+
+<p id="demo"></p>
+
+<script>
+
+var carName1 = "Volvo XC60";
+var carName2 = 'Volvo XC60';
+
+document.getElementById("demo").innerHTML =
+carName1 + "<br>" + carName2; 
+
+</script>
+
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;h3> 
+statements double comma & simple comma
+&lt;/h3>
+
+&lt;p id="demo">&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var carName1 = "Volvo XC60";
+var carName2 = 'Volvo XC60';
+
+document.getElementById("demo")
+	.innerHTML =carName1 + "&lt;br>" + carName2; 
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1> string [" add 'comma' inside "]     </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+
+<p id="demo1"></p>
+
+<script>
+
+var answer11 = "It's alright";
+var answer21 = "He is called 'Johnny'";
+var answer31 = 'He is called "Johnny"'; 
+
+document.getElementById("demo1").innerHTML =
+answer11 + "<br>" + answer21 + "<br>" + answer31; 
+
+</script>
+
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;h3> 
+statements write some string diferent comma 'simple' & "double" 
+&lt;/h3>
+
+&lt;p id="demo">&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var answer1 = "It's alright";
+var answer2 = "He is called 'Johnny'";
+var answer3 = 'He is called "Johnny"'; 
+
+document.getElementById("demo")
+	.innerHTML =answer1 + "&lt;br>" + answer2 + "&lt;br>" + answer3; 
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>   length  </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+
+<p id="demo2"></p>
+
+<script>
+var txt2 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+document.getElementById("demo2").innerHTML = txt2.length;
+</script>
+
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;h3> 
+account a string width length
+&lt;/h3>
+
+&lt;p id="demo">&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+document.getElementById("demo").innerHTML = txt.length;
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>   Backslash \  </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+<p id="demo"></p>
+
+<script>
+
+var x3 = 'It\'s alright';
+var y3 = "We are the so-called \"Vikings\" from the north.";
+
+document.getElementById("demo3").innerHTML = x3 + "<br>" + y3; 
+
+</script>
+
+
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;h3> 
+Backslash \
+&lt;/h3>
+
+&lt;p id="demo">&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var x = 'It\'s alright';
+var y = "We are the so-called \"Vikings\" from the north.";
+
+document.getElementById("demo").innerHTML = x + "&lt;br>" + y; 
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>   string  </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+
+<h1>My Web Page</h1>
+
+<p>
+The best place to break a code line is after an operator or a comma.
+</p>
+
+<p id="demo4"></p>
+
+<script>
+document.getElementById("demo4").innerHTML ="Hello Dolly.";
+</script>
+
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;h3> 
+The best place to break a code line is after an operator or a comma.
+&lt;/h3>
+
+&lt;p id="demo">&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+document.getElementById("demo").innerHTML ="Hello Dolly.";
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>  string with a backslash   </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+
+<h1>My Web Page</h1>
+
+<p>
+You can break a code line within a text string with a backslash.
+</p>
+
+<p id="demo5"></p>
+
+<script>
+document.getElementById("demo5").innerHTML = "Hello \ Dolly.";
+</script>
+
+
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;h3> 
+You can break a code line within a text string with a backslash.
+&lt;/h3>
+
+&lt;p id="demo">&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+document.getElementById("demo").innerHTML = "Hello \ Dolly.";
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>  string is using string addition   </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+
+<h1>My Web Page</h1>
+
+<p>
+The safest way to break a code line in a string is using string addition.
+</p>
+
+<p id="demo6"></p>
+
+<script>
+document.getElementById("demo6").innerHTML = "Hello" +  "Dolly.";
+</script>
+
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;h3> 
+The safest way to break a code line in a string is using string addition.
+&lt;/h3>
+
+&lt;p id="demo">&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+document.getElementById("demo").innerHTML = "Hello" +  "Dolly.";
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>  line with a  backslash \  </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+<h1>My Web Page</h1>
+
+<p id="demo7">You cannot break a code line with a \ backslash.</p>
+
+<script>
+document.getElementById("demo7").innerHTML = \ "Hello Dolly.";
+</script>
+
+
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+
+&lt;p id="demo"> You cannot break a code line with a \ backslash &lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+document.getElementById("demo").innerHTML = \ "Hello Dolly.";
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>   string add new string('string')  </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+
+<p id="demo8"></p>
+
+<script>
+var x8 = "John";              // x is a string
+var y8 = new String("John");  // y is an object
+
+document.getElementById("demo8")
+	.innerHTML =typeof x8 + "<br>" + typeof y8;
+</script>
+
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+
+&lt;p id="demo">&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var x = "John";              // x is a string
+var y = new String("John");  // y is an object
+
+document.getElementById("demo")
+	.innerHTML =typeof x + "&lt;br>" + typeof y;
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>   strings as objects == compared  </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+<p>Never create strings as objects.</p>
+<p>Strings and objects cannot be safely compared.</p>
+
+<p id="demo9"></p>
+
+<script>
+var x9 = "John";              // x is a string
+var y9 = new String("John");  // y is an object
+document.getElementById("demo9").innerHTML = (x9==y9);
+</script>
+
+
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;p>Never create strings as objects.&lt;/p>
+&lt;p>Strings and objects cannot be safely compared.&lt;/p>
+
+&lt;p id="demo">&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var x = "John";              // x is a string
+var y = new String("John");  // y is an object
+document.getElementById("demo").innerHTML = (x==y);
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>    strings as objects === compared  </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+<p>Never create strings as objects.</p>
+<p>Strings and objects cannot be safely compared.</p>
+
+<p id="demo10"></p>
+
+<script>
+var x10 = "John";              // x is a string
+var y10 = new String("John");  // y is an object
+document.getElementById("demo10").innerHTML = (x10===y10);
+</script>
+
+
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;p>Never create strings as objects &lt;/p>
+&lt;p>Strings and objects cannot be safely compared &lt;/p>
+
+&lt;p id="demo">&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var x = "John";              // x is a string
+var y = new String("John");  // y is an object
+document.getElementById("demo").innerHTML = (x===y);
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>    strings as objects == new string  </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+<p>Never create strings as objects.</p>
+<p>JavaScript objects cannot be compared.</p>
+
+<p id="demo11"></p>
+
+<script>
+var x11 = new String("John");  // x is an object
+var y11 = new String("John");  // y is an object
+document.getElementById("demo11").innerHTML = (x11==y11);
+</script>
+
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;p>Never create strings as objects.&lt;/p>
+&lt;p>JavaScript objects cannot be compared.&lt;/p>
+
+&lt;p id="demo">&lt;/p>
+
+
+
+&lt;!--
+Code	Outputs
+\'	single quote
+\"	double quote
+\\	backslash
+Five other escape characters are valid in JavaScript:
+
+Code	Outputs
+\b	Backspace
+\r	Carriage Return
+\f	Form Feed
+\t	Horizontal Tabulator
+\v	
+-->
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var x = new String("John");  // x is an object
+var y = new String("John");  // y is an object
+document.getElementById("demo").innerHTML = (x==y);
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+<style>
+    
+    
+    body {
+  background: rgba(161, 192, 87, 0.9999);
+}
+/* head welcome - blue */
+#cont {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  margin: 4px;
+  padding: 2px;
+  background: linear-gradient(to top right, #3f51b5 0%, #039be5 40%);
+  box-shadow: 1px 1px 30px #0277bd;
+}
+/* head welcome container */
+#head {
+  position: relative;
+  top: -15px;
+  text-transform: capitalize;
+  max-width: 900px;
+  margin: auto;
+  color: white;
+  width: 800px;
+  background-color: rgba(31, 31, 31, 0.6);
+  border-left: 1px solid #e2695f;
+  border-radius: 3px;
+}
+/* Background colours */
+div + div article:nth-child(1) {
+  background: #434451;
+  border: 6px solid #333 ;
+  transition: all .8s ease 0s;
+}
+div + div article:nth-child(2) {
+  background: #696969;
+  border: 6px solid #333 ;
+  transition: all 0.8s ease 0s;
+}
+/* Main layout */
+div + div {
+  width: 1200px;
+  height: 500px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  overflow: hidden;
+}
+/* Articles */
+div + div article {
+  flex: initial;
+  width: 5%;
+  height: 100%;
+  text-align: left;
+  color: white;
+  box-sizing: border-box;
+  padding: 2vh 1vw;
+  position: relative;
+  vertical-align: bottom;
+  opacity: 1;
+}
+/* hover article */
+div > article:hover {
+  overflow: auto;
+}
+/* Hover interaction small */
+div + div:hover article {
+  flex: initial;
+  width: 6%;
+  cursor: grad;
+}
+/* article interaction expand text */
+div + div article:hover {
+  width: 60%;
+}
+/* hidden text */
+article > div {
+  opacity: 0;
+  transition: opacity .6s ease 0;
+}
+/* show text */
+div + div article:hover > div {
+  opacity: 1;
+  transition: opacity .3s ease .3s;
+}
+/* word vertical  */
+div + div article > h2 {
+  bottom: 5vh;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  margin: -4px;
+  font-size: 3vh;
+  transform: rotate(-90deg);
+  transform-origin: 0 0 0;
+  opacity: 1;
+  min-width: 12em;
+}
+/* rotate word vertical  */
+article:hover > h2 {
+  top: 2vh;
+  transition: opacity .3s ease .3s;
+}
+@media (max-width: 900px) {
+  div + div article {
+    padding: 2vh 3vw;
+  }
+  div + div article > h2:hover {
+    transform: rotate(-10deg);
+  }
+  article div {
+    max-height: calc(92%);
+    overflow-y: auto;
+  }
+}
+#very {
+  background: #696969;
+  border-radius: 5px;
+  overflow: auto;
+  padding: 25px;
+}
+#gray {
+  background: rgba(67, 68, 81, 0.99);
+  overflow: auto;
+  border-radius: 5px;
+  padding: 20px;
+}
+#rot {
+  background-color: rgba(31, 31, 31, 0.6);
+  border-left: 1px solid #e2695f;
+  border-radius: 3px;
+  border: 13px solid #300;
+}
+
+</style>
+
+
+
