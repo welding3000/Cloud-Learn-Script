@@ -1,0 +1,837 @@
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>  Variable    </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+<p>Creating a JavaScript Variable.</p>
+
+<p id="demo"></p>
+
+<script>
+var car = "Fiat";
+document.getElementById("demo").innerHTML = car;
+</script>
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;h3> 
+Creating a JavaScript Variable
+&lt;/h3>
+
+&lt;p id="demo">&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var car = "Fiat";
+document.getElementById("demo").innerHTML = car;
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>   key { string }   </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+<p>Creating a JavaScript Object.</p>
+
+<p id="demo1"></p>
+
+<script>
+var car1 = {type1:"Fiat", model1:"500", color1:"white"};
+document.getElementById("demo1").innerHTML = car1.type1;
+</script>
+
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;h3> 
+Creating a JavaScript Object
+&lt;/h3>
+
+&lt;p id="demo">&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var car = {type:"Fiat", model:"500", color:"white"};
+document.getElementById("demo").innerHTML = car.type;
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>   Creatings  Objects   </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+<p>Creating a JavaScript Object.</p>
+
+<p id="demo2"></p>
+
+<script>
+var person2 = {firstName2:"John", lastName2:"Doe", age2:50, eyeColor2:"blue"};
+
+document.getElementById("demo2").innerHTML =
+person2.firstName2 + " is " + person2.age2 + " years old.";
+</script>
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;h3> 
+Creating a JavaScript Object
+&lt;/h3>
+
+&lt;p id="demo">&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+
+var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+
+document.getElementById("demo").innerHTML =
+person.firstName + " is " + person.age + " years old.";
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>  key { string - number  }    </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+<p>Creating a JavaScript Object.</p>
+
+<p id="demo3"></p>
+
+<script>
+var person3 = {
+    firstName3 : "John",
+    lastName3  : "Doe",
+    age3       : 50,
+    eyeColor3  : "blue"
+};
+
+document.getElementById("demo3").innerHTML =
+person3.firstName3 + " is " + person3.age3 + " years old.";
+</script>
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;h3> 
+Creating a JavaScript Object
+&lt;/h3>
+
+&lt;p id="demo">&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var person = {
+    firstName : "John",
+    lastName  : "Doe",
+    age       : 50,
+    eyeColor  : "blue"
+};
+
+document.getElementById("demo").innerHTML =
+person.firstName + " is " + person.age + " years old.";
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>   key { }   </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+<p>
+There are two different ways to access an object property: 
+</p>
+<p>You can use person.property or person["property"].</p>
+
+<p id="demo4"></p>
+
+<script>
+var person4 = {
+    firstName4: "John",
+    lastName4 : "Doe",
+    id4       :  5566
+};
+document.getElementById("demo4").innerHTML =
+person4.firstName4 + " " + person4.lastName4;
+</script>
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;p> 
+There are two different ways to access an object property: 
+You can use person.property or person["property"]
+&lt;/p>
+
+&lt;p id="demo">&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var person = {
+    firstName: "John",
+    lastName : "Doe",
+    id       :  5566
+};
+document.getElementById("demo").innerHTML =
+person.firstName + " " + person.lastName;
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>   { access } an object property [Bracket]   </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+
+<p>
+There are two different ways to access an object property: 
+</p>
+<p>You can use person.property or person["property"].</p>
+
+<p id="demo5"></p>
+
+<script>
+var person5 = {
+    firstName5: "John",
+    lastName5 : "Doe",
+    id5       :  5566
+};
+document.getElementById("demo5").innerHTML =
+person5["firstName5"] + " " + person5["lastName5"];
+</script>
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;p> 
+There are two different ways to access an object property: 
+You can use person.property or person["property"]
+&lt;/p>
+
+&lt;p id="demo">&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var person = {
+    firstName: "John",
+    lastName : "Doe",
+    id       :  5566
+};
+document.getElementById("demo").innerHTML =
+person["firstName"] + " " + person["lastName"];
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>   object property[bracket]  </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+<p>
+There are two different ways to access an object property: 
+</p>
+<p>You can use person.property or person["property"].</p>
+
+<p id="demo6"></p>
+
+<script>
+var person6 = {
+    firstName6: "John",
+    lastName6 : "Doe",
+    id6       :  5566
+};
+document.getElementById("demo6").innerHTML =
+person6["firstName6"] + " " + person6["lastName6"];
+</script>
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;p> 
+There are two different ways to access an object property: 
+You can use person.property or person["property"]
+&lt;/p>
+
+&lt;p id="demo">&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var person = {
+    firstName: "John",
+    lastName : "Doe",
+    id       :  5566
+};
+document.getElementById("demo").innerHTML =
+person["firstName"] + " " + person["lastName"];
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>   object method is a function definition return   </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+<p>Creating and using an object method.</p>
+
+<p>An object method is a function definition, stored as a property value.</p>
+
+<p id="demo7"></p>
+
+<script>
+var person7 = {
+    firstName7: "John",
+    lastName7 : "Doe",
+    id7       : 5566,
+    fullName7 : function() {
+       return this.firstName7 + " " + this.lastName7;
+    }
+};
+
+document.getElementById("demo7").innerHTML = person7.fullName7();
+</script>
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;h3> 
+Creating and using an object method
+An object method is a function definition, stored as a property value
+&lt;/h3>
+
+&lt;p id="demo">&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var person = {
+    firstName: "John",
+    lastName : "Doe",
+    id       : 5566,
+    fullName : function() {
+       return this.firstName + " " + this.lastName;
+    }
+};
+
+document.getElementById("demo").innerHTML = person.fullName();
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- ----------------------  start  ------------------------ -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<div id='cont'>
+  <div id='head'>
+    <h1>  access it without () return the function   </h1>
+  </div>
+</div>
+<div id='rot'>
+  <article>
+    <h2>Resultado</h2>
+    <div>
+      <h3>Ejemplo</h3>
+      <!-- ------ start text ------ -->
+      <div id='very'>
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+<p>An object method is a function definition, stored as a property value.</p>
+<p>If you access it without (), it will return the function definition:</p>
+
+<p id="demo8"></p>
+
+<script>
+var person8 = {
+    firstName8: "John",
+    lastName8 : "Doe",
+    id8       : 5566,
+    fullName8 : function() {
+       return this.firstName8 + " " + this.lastName8;
+    }
+};
+
+document.getElementById("demo8").innerHTML = person8.fullName8;
+</script>
+
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ------ end text -------- -->
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Codigo</h2>
+    <div>
+      <h3>HTML</h3>
+      <!-- ------ start text ------ -->
+      <pre id='gray'>&lt;body>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+&lt;p> 
+An object method is a function definition, stored as a property value
+<p>If you access it without (), it will return the function definition
+&lt;/p>
+
+&lt;p id="demo">&lt;/p>
+
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/body></pre>
+      <!-- ------ end html -------- -->
+      <hr>
+      <!-- ------ begin -------- -->
+      <h3>JS</h3>
+      <!-- ------ start js -------- -->
+      <pre id='gray'>&lt;script>
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+var person = {
+    firstName: "John",
+    lastName : "Doe",
+    id       : 5566,
+    fullName : function() {
+       return this.firstName + " " + this.lastName;
+    }
+};
+
+document.getElementById("demo").innerHTML = person.fullName;
+      <!-- :::::::::::::::::::::::::::::::::::::::::::::: -->
+      &lt;/script></pre>
+    </div>
+  </article>
+</div>
+<hr>
+<hr>
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- -----------------------  end  ------------------------- -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+
+
+
+
+
+<style>
+    
+    
+    body {
+  background: rgba(161, 192, 87, 0.9999);
+}
+/* head welcome - blue */
+#cont {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  margin: 4px;
+  padding: 2px;
+  background: linear-gradient(to top right, #3f51b5 0%, #039be5 40%);
+  box-shadow: 1px 1px 30px #0277bd;
+}
+/* head welcome container */
+#head {
+  position: relative;
+  top: -15px;
+  text-transform: capitalize;
+  max-width: 900px;
+  margin: auto;
+  color: white;
+  width: 800px;
+  background-color: rgba(31, 31, 31, 0.6);
+  border-left: 1px solid #e2695f;
+  border-radius: 3px;
+}
+/* Background colours */
+div + div article:nth-child(1) {
+  background: #434451;
+  border: 6px solid #333 ;
+  transition: all .8s ease 0s;
+}
+div + div article:nth-child(2) {
+  background: #696969;
+  border: 6px solid #333 ;
+  transition: all 0.8s ease 0s;
+}
+/* Main layout */
+div + div {
+  width: 1200px;
+  height: 500px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  overflow: hidden;
+}
+/* Articles */
+div + div article {
+  flex: initial;
+  width: 5%;
+  height: 100%;
+  text-align: left;
+  color: white;
+  box-sizing: border-box;
+  padding: 2vh 1vw;
+  position: relative;
+  vertical-align: bottom;
+  opacity: 1;
+}
+/* hover article */
+div > article:hover {
+  overflow: auto;
+}
+/* Hover interaction small */
+div + div:hover article {
+  flex: initial;
+  width: 6%;
+  cursor: grad;
+}
+/* article interaction expand text */
+div + div article:hover {
+  width: 60%;
+}
+/* hidden text */
+article > div {
+  opacity: 0;
+  transition: opacity .6s ease 0;
+}
+/* show text */
+div + div article:hover > div {
+  opacity: 1;
+  transition: opacity .3s ease .3s;
+}
+/* word vertical  */
+div + div article > h2 {
+  bottom: 5vh;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  margin: -4px;
+  font-size: 3vh;
+  transform: rotate(-90deg);
+  transform-origin: 0 0 0;
+  opacity: 1;
+  min-width: 12em;
+}
+/* rotate word vertical  */
+article:hover > h2 {
+  top: 2vh;
+  transition: opacity .3s ease .3s;
+}
+@media (max-width: 900px) {
+  div + div article {
+    padding: 2vh 3vw;
+  }
+  div + div article > h2:hover {
+    transform: rotate(-10deg);
+  }
+  article div {
+    max-height: calc(92%);
+    overflow-y: auto;
+  }
+}
+#very {
+  background: #696969;
+  border-radius: 5px;
+  overflow: auto;
+  padding: 25px;
+}
+#gray {
+  background: rgba(67, 68, 81, 0.99);
+  overflow: auto;
+  border-radius: 5px;
+  padding: 20px;
+}
+#rot {
+  background-color: rgba(31, 31, 31, 0.6);
+  border-left: 1px solid #e2695f;
+  border-radius: 3px;
+  border: 13px solid #300;
+}
+
+</style>
+
