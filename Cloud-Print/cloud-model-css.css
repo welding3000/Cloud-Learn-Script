@@ -100,7 +100,7 @@ body{
 
   color:black;
   text-align:justify; 
-  max-width:800px;  
+  max-width:1500px;  
   
 /* ::::::::::::::::::::::::: */
   @include body()
@@ -123,7 +123,7 @@ h2{
 .acordionBox{  
   padding: 3px;
   margin: 2px 0 0 0;  
-  height:775px;  /*-- modificado ----*/
+  height:1130px;  /*-- modificado ----*/
   
  /* ::::::::::::::::::::::::: */
   @include acordionBox()
@@ -141,7 +141,7 @@ h2{
 .caja{
   background:#1d1f20;
   margin-top:5px;  
-  height:650px;  /* modificado*/
+  height:1000px;  /* modificado*/
   padding:8px 15px;
   
 /* ::::::::::::::::::::::::: */
@@ -237,6 +237,7 @@ h2{
 #hide_show_border_container100,#hide_show_border_container101,#hide_show_border_container102,#hide_show_border_container103,#hide_show_border_container104,#hide_show_border_container105,#hide_show_border_container106,#hide_show_border_container107,#hide_show_border_container108,#hide_show_border_container109
 
 {
+
 
 /* ::::::::::::::::::::::::: */
   @include ul();
@@ -356,8 +357,8 @@ h2{
   margin-top: 6px;
   margin-left:-14px;
   padding:3px 3px;
-  height:500px; 
-  width: 610px; 
+  height:930px; 
+  width: 1280px; 
   overflow:auto;
 /* ::::::::::::::::::::::::: */
   @include effect-code()
@@ -388,7 +389,7 @@ h2{
 #tabs-120
 {
  margin-top:-15px;
- height:655px;  
+ height:1000px;  
  padding:0px 25px; 
  background:rgba(14,14,94,0.3333); 
   
@@ -464,4 +465,5 @@ h2{
   border-left: 1px solid #e2695f;
   border-radius: 3px;
 }
+
 
