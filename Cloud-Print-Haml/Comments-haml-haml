@@ -1,0 +1,296 @@
+%hr/
+%hr/
+/ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+/ ----------------------  start  ------------------------
+/ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#cont
+  #head
+    %h1 Comment A Line / /
+#rot
+  %article
+    %h2 Resultado
+    %div
+      %h3 Ejemplo
+      / ------ start text ------
+      #very
+        / ::::::::::::::::::::::::::::::::::::::::::::::
+        %h3#myH
+        %p#myP
+        :javascript
+          // Change heading:
+          document.getElementById("myH").innerHTML = "My First Page";
+          // Change paragraph:
+          document.getElementById("myP").innerHTML = "My first paragraph.";
+        %p
+          %strong Note:
+          The comments are not executed.
+        / ::::::::::::::::::::::::::::::::::::::::::::::
+        / ------ end text --------
+  %article
+    %h2 Codigo
+    %div
+      %h3 HTML
+      / ------ start text ------
+      %pre#gray
+        \&lt;body&gt;
+        / ::::::::::::::::::::::::::::::::::::::::::::::
+        \&lt;h3 id="myH"&gt;&lt;/h3&gt;
+        \&lt;p id="myP"&gt;&lt;/p&gt;
+        \&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The comments are not executed.&lt;/p&gt;
+        / ::::::::::::::::::::::::::::::::::::::::::::::
+        \&lt;/body&gt;
+      / ------ end html --------
+      %hr/
+      / ------ begin --------
+      %h3 JS
+      / ------ start js --------
+      %pre#gray
+        \&lt;script&gt;
+        / ::::::::::::::::::::::::::::::::::::::::::::::
+        \// Change heading:
+        document.getElementById("myH").innerHTML = "My First Page";
+        \// Change paragraph:
+        document.getElementById("myP").innerHTML = "My first paragraph.";
+        / ::::::::::::::::::::::::::::::::::::::::::::::
+        \&lt;/script&gt;
+%hr/
+%hr/
+/ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+/ -----------------------  end  -------------------------
+/ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+/ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+/ ----------------------  start  ------------------------
+/ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#cont
+  #head
+    %h1 Comments Several Lines /* */
+#rot
+  %article
+    %h2 Resultado
+    %div
+      %h3 Ejemplo
+      / ------ start text ------
+      #very
+        / ::::::::::::::::::::::::::::::::::::::::::::::
+        %h3#myH1
+        %p#myP1
+        :javascript
+          /*
+          The code below will change
+          the heading with id = "myH"
+          and the paragraph with id = "myp"
+          in my web page:
+          */
+          document.getElementById("myH1").innerHTML = "My First Page";
+          document.getElementById("myP1").innerHTML = "My first paragraph.";
+        %p
+          %strong Note:
+          The comment block is not executed.
+        / ::::::::::::::::::::::::::::::::::::::::::::::
+        / ------ end text --------
+  %article
+    %h2 Codigo
+    %div
+      %h3 HTML
+      / ------ start text ------
+      %pre#gray
+        \&lt;body&gt;
+        / ::::::::::::::::::::::::::::::::::::::::::::::
+        \&lt;h3 id="myH1"&gt;&lt;/h3&gt;
+        \&lt;p id="myP1"&gt;&lt;/p&gt;
+        \&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The comment block is not executed.&lt;/p&gt;
+        / ::::::::::::::::::::::::::::::::::::::::::::::
+        \&lt;/body&gt;
+      / ------ end html --------
+      %hr/
+      / ------ begin --------
+      %h3 JS
+      / ------ start js --------
+      %pre#gray
+        \&lt;script&gt;
+        / ::::::::::::::::::::::::::::::::::::::::::::::
+        \/*
+        The code below will change
+        the heading with id = "myH"
+        and the paragraph with id = "myp"
+        in my web page:
+        */
+        document.getElementById("myH1").innerHTML = "My First Page";
+        document.getElementById("myP1").innerHTML = "My first paragraph.";
+        / ::::::::::::::::::::::::::::::::::::::::::::::
+        \&lt;/script&gt;
+%hr/
+%hr/
+/ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+/ -----------------------  end  -------------------------
+/ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+/ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+/ ----------------------  start  ------------------------
+/ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#cont
+  #head
+    %h1 Comment Line GetElementById
+#rot
+  %article
+    %h2 Resultado
+    %div
+      %h3 Ejemplo
+      / ------ start text ------
+      #very
+        / ::::::::::::::::::::::::::::::::::::::::::::::
+        %h3#myH2
+        %p#myP2
+        :javascript
+          //document.getElementById("myH2").innerHTML = "My First Page";
+          document.getElementById("myP2").innerHTML = "My first paragraph.";
+        %p
+          %strong Note:
+          The comment is not executed.
+        / ::::::::::::::::::::::::::::::::::::::::::::::
+        / ------ end text --------
+  %article
+    %h2 Codigo
+    %div
+      %h3 HTML
+      / ------ start text ------
+      %pre#gray
+        \&lt;body&gt;
+        / ::::::::::::::::::::::::::::::::::::::::::::::
+        \&lt;h3 id="myH2"&gt;&lt;/h3&gt;
+        \&lt;p id="myP2"&gt;&lt;/p&gt;
+        \&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The comment is not executed.&lt;/p&gt;
+        / ::::::::::::::::::::::::::::::::::::::::::::::
+        \&lt;/body&gt;
+      / ------ end html --------
+      %hr/
+      / ------ begin --------
+      %h3 JS
+      / ------ start js --------
+      %pre#gray
+        \&lt;script&gt;
+        / ::::::::::::::::::::::::::::::::::::::::::::::
+        \//document.getElementById("myH2").innerHTML = "My First Page";
+        document.getElementById("myP2").innerHTML = "My first paragraph.";
+        / ::::::::::::::::::::::::::::::::::::::::::::::
+        \&lt;/script&gt;
+%hr/
+%hr/
+/ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+/ -----------------------  end  -------------------------
+/ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+/ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+/ ----------------------  start  ------------------------
+/ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#cont
+  #head
+    %h1 Comment Servel Line GetElementById
+#rot
+  %article
+    %h2 Resultado
+    %div
+      %h3 Ejemplo
+      / ------ start text ------
+      #very
+        / ::::::::::::::::::::::::::::::::::::::::::::::
+        %h3#myH3
+        %p#myP3
+        :javascript
+          /*
+          document.getElementById("myH3").innerHTML = "Welcome to my Homepage";
+          document.getElementById("myP3").innerHTML = "This is my first paragraph.";
+          */
+        %p
+          %strong Note:
+          The comment-block is not executed.
+        / ::::::::::::::::::::::::::::::::::::::::::::::
+        / ------ end text --------
+  %article
+    %h2 Codigo
+    %div
+      %h3 HTML
+      / ------ start text ------
+      %pre#gray
+        \&lt;body&gt;
+        / ::::::::::::::::::::::::::::::::::::::::::::::
+        \&lt;h3 id="myH3"&gt;&lt;/h3&gt;
+        \&lt;p id="myP3"&gt;&lt;/p&gt;
+        \&lt;p&gt;
+        %strong
+          Note:&lt;/strong&gt; The comment-block is not executed.&lt;/p&gt;
+          / ::::::::::::::::::::::::::::::::::::::::::::::
+          \&lt;/body&gt;
+      / ------ end html --------
+      %hr/
+      / ------ begin --------
+      %h3 JS
+      / ------ start js --------
+      %pre#gray
+        \&lt;script&gt;
+        / ::::::::::::::::::::::::::::::::::::::::::::::
+        \/*
+        document.getElementById("myH3").innerHTML = "Welcome to my Homepage";
+        document.getElementById("myP3").innerHTML = "This is my first paragraph.";
+        */
+        / ::::::::::::::::::::::::::::::::::::::::::::::
+        \&lt;/script&gt;
+%hr/
+%hr/
+/ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+/ -----------------------  end  -------------------------
+/ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+/ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+/ ----------------------  start  ------------------------
+/ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#cont
+  #head
+    %h1 Comment Declared Within Variable
+#rot
+  %article
+    %h2 Resultado
+    %div
+      %h3 Ejemplo
+      / ------ start text ------
+      #very
+        / ::::::::::::::::::::::::::::::::::::::::::::::
+        %p#demo4
+        :javascript
+          var x4 = 5;      // Declare x, give it the value of 5
+          var y4 = x4 + 2;  // Declare y, give it the value of x + 2 
+          
+          document.getElementById("demo4").innerHTML = y4; // Write y to demo
+        %p
+          %strong Note:
+          The comments are not executed.
+        / ::::::::::::::::::::::::::::::::::::::::::::::
+        / ------ end text --------
+  %article
+    %h2 Codigo
+    %div
+      %h3 HTML
+      / ------ start text ------
+      %pre#gray
+        \&lt;body&gt;
+        / ::::::::::::::::::::::::::::::::::::::::::::::
+        \&lt;p id="demo4"&gt;&lt;/p&gt;
+        \&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The comments are not executed.&lt;/p&gt;
+        / ::::::::::::::::::::::::::::::::::::::::::::::
+        \&lt;/body&gt;
+      / ------ end html --------
+      %hr/
+      / ------ begin --------
+      %h3 JS
+      / ------ start js --------
+      %pre#gray
+        \&lt;script&gt;
+        / ::::::::::::::::::::::::::::::::::::::::::::::
+        var x4 = 5;      // Declare x, give it the value of 5
+        var y4 = x4 + 2;  // Declare y, give it the value of x + 2
+        
+        document.getElementById("demo4").innerHTML = y4; // Write y to demo
+        / ::::::::::::::::::::::::::::::::::::::::::::::
+        \&lt;/script&gt;
+%hr/
+%hr/
+/ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+/ -----------------------  end  -------------------------
+/ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
